@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montana Vehicle Registration Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #002244;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #004080;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background-color: #e0f0ff;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #002244;
+        }
+        .hero p {
+            margin: 0.5rem 0 1.5rem;
+            font-size: 1.2rem;
+        }
+        .hero button {
+            background-color: #004080;
+            color: #fff;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .section h2 {
+            color: #002244;
+        }
+        .services {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .service-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 1rem;
+            padding: 1.5rem;
+            width: 300px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .service-card h3 {
+            color: #004080;
+        }
+        footer {
+            background-color: #002244;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Montana Vehicle Registration Services</h1>
+        <p>Your Trusted Broker for Hassle-Free Montana Tags</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Save Time and Money with Montana Registration</h1>
+        <p>We handle the paperwork so you don’t have to.</p>
+        <button onclick="location.href='#contact'">Get Started</button>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-card">
+                <h3>Montana LLC Setup</h3>
+                <p>We assist with setting up a Montana LLC to allow legal vehicle registration.</p>
+            </div>
+            <div class="service-card">
+                <h3>Vehicle Registration</h3>
+                <p>We handle the paperwork to title and register your vehicle in Montana.</p>
+            </div>
+            <div class="service-card">
+                <h3>Tax Savings Guidance</h3>
+                <p>Take advantage of Montana’s zero sales tax on vehicle purchases.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <h2>About Us</h2>
+        <p>We specialize in helping clients register their vehicles in Montana, saving them thousands of dollars on taxes and fees. With years of experience, we provide a smooth and reliable process to get you on the road quickly.</p>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <p><strong>Is it legal to register my car in Montana if I live elsewhere?</strong><br>Yes, setting up an LLC allows for legal registration in Montana.</p>
+        <p><strong>How much can I save?</strong><br>Montana has zero sales tax, which can save you thousands depending on your vehicle.</p>
+        <p><strong>What vehicles can you register?</strong><br>We handle cars, trucks, RVs, and more!</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <h2>Contact Us</h2>
+        <p>Ready to get started? Reach out to us today!</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Montana Vehicle Registration Services. All Rights Reserved. | <a href="#">Legal Disclaimer</a></p>
+    </footer>
+</body>
+</html>
+
